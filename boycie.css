@@ -1,0 +1,104 @@
+/* boycie.net base style
+ * 
+ * Matthew Emes
+ */
+
+body {  
+  background:#ffffff;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font: 10px Helvetica, Arial, Sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #4499aa;
+  text-decoration: none;
+}
+
+a strong {
+  color: #338899;
+}
+
+a:hover, a:hover strong {
+  color: #993333;
+}
+
+a:focus, a:focus strong, a:active, a:active strong {
+  outline:none;
+  color:#000000;
+}
+
+a img, a.img:link, a.img:visited, a.img:hover {
+  border-width:0;
+}
+
+h1 {
+  margin: 0.917em 0 0.292em 0;
+  color: #777777;
+  font-size: 2.4em;
+  line-height; 1.667;;
+}
+
+h2 {
+  margin: 0 0 0.769em 0;
+  padding: 0 0 1.231em 0;
+  color: #119988;
+  font-size: 1.3em;
+  line-height: 1.539;
+}
+
+p {
+  margin: 0 0 0.769em 0;
+  font-size: 1.3em;
+  line-height: 1.539;
+}
+
+#container {
+  position: relative;
+  padding: 0 2em;
+}
+
+#contact {
+  vertical-align: middle;
+}
+
+#contact ul {
+  margin: 1em;
+  padding: 0;
+  list-style: none;
+}
+
+#contact li {
+  margin: 1em 0 1em 0;
+  padding: 0.292em 0 0 0;
+  font-size: 1.3em;
+}
+
+/* Icon images for social networks
+ *
+ */
+.social_icon {
+  background-position: -32px -32px;
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  margin: 0 0 0 0.292em;
+  vertical-align: middle;
+}
+
+#facebook {
+  background-image: url("facebook.png");
+}
+
+#twitter {
+  background-image: url("twitter.png");
+}
+
+#linkedin {
+  background-image: url("linkedin.png");
+}
+
+#flickr {
+  background-image: url("flickr.png");
+}
